@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar/NavBar";
 import './Hero.modules.css'
-import  ButtonField  from "./Button/ButtonField";
+import  ButtonField  from "./ButtonField/ButtonField";
 
 const Hero =()=>{
     return(
