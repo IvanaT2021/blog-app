@@ -1,10 +1,11 @@
-
-import './App.css';
+import "./App.css";
+import Button from "@mui/material/Button";
 
 function App() {
   return (
     <div className="App">
-     <h1>hello</h1>
+      <h1>hello</h1>
+      <Button variant="contained">Hello World</Button>
     </div>
   );
 }
