@@ -2,7 +2,7 @@ import React from "react";
 import './Button.modules.css'
 import { Button } from "@mui/material";
 
-const Button =()=>{
+const ButtonField =()=>{
     return(
         <div className="button">
            <Button variant="contained">Hello World</Button>;
@@ -11,4 +11,4 @@ const Button =()=>{
     )
 }
 
-export default Button
+export default ButtonField
