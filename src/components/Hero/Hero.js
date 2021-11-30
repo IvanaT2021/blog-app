@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "./NavBar/NavBar";
-import './Hero.modules.css'
-import  Button  from "./Button/Button";
+import NavBar from "./NavBar/NavBar";
+import styles from './Hero.module.css'
+import  HeroButton  from "./HeroButton/HeroButton";
 
 const Hero =()=>{
     return(
-        <div className="hero">
+        <div className={styles.Hero}>
             <h1>Hello from Hero</h1>
-            <Navbar/>
-            <Button/>
+            <NavBar/>
+            <HeroButton/>
         </div>
     )
 }
