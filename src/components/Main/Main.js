@@ -1,11 +1,15 @@
 import React from "react";
-import './Main.modules.css'
-import Card  from "./Card/Card";
+import styles from './Main.module.css'
+import MainCard  from "./MainCard/MainCard";
 const Main =()=>{
     return(
-        <div className="main">
+        <div className={styles.Main}>
            <h1>Hello from Main</h1>
-           <Card/>
+           <MainCard/>
+           <MainCard/>
+           <MainCard/>
+           <MainCard/>
+           <MainCard/>
 
         </div>
     )
