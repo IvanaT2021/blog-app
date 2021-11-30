@@ -6,11 +6,6 @@ const Main =()=>{
         <div className={styles.Main}>
            <h1>Hello from Main</h1>
            <MainCard/>
-           <MainCard/>
-           <MainCard/>
-           <MainCard/>
-           <MainCard/>
-
         </div>
     )
 }
